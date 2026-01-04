@@ -1,0 +1,23 @@
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+
+nav li:hover{
+  background-color: rgb(17, 226, 198);
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(17, 226, 198);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
