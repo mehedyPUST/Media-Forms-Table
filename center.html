@@ -3,7 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Audio Video</title>
+  <title>Center Flex </title>
+  <style>
+    .container {
+      height: 600px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: aqua;
+    }
+    .box {
+      background-color: orange;
+      font-size: 4em;
+      height: 150px;
+      width: 150px;
+    }
+  </style>
   <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
@@ -20,8 +35,10 @@
   </ul>
 </nav>
   </header>
-  <audio controls src="AudioVideo/priyotoma.mp3"></audio>
-  <video controls src="AudioVideo/videoMountain.mp4"></video>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VXDO1LQNx54?si=OFOPCJCtEJHorako" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="container">
+    <div class="box">
+      box
+    </div>
+  </div>
 </body>
 </html>
